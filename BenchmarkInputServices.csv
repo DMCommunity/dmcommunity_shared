@@ -1,0 +1,8 @@
+ID,Place Of Service,Service Type,Product,Group Size,In Network,Is Covered,Date of Service
+R18,Inpatient,adultImmunizations,PRODUCT123,L,Y,Y,10/01/2019
+R35,Office,allergyTesting,PRODUCT123,L,N,Y,05/12/2020
+R10374,Inpatient,preferredLab,PRODS898,L,Y,Y,8/10/2019
+R16374,Inpatient,transgenderSurgery,PROD012,L,N,N,11/03/2018
+R16377,Outpatient,,XXX,,N,N,10/01/2019
+R15000,Office,catScans,PRODUCT711,,Y,Y,10/01/2019
+R10000,Office,diabeticTesting,PRODS898,L,N,Y,10/01/2019

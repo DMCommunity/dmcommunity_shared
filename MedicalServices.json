@@ -6,7 +6,7 @@
 		"groupSize": "L",
 		"inNetwork": "Y",
 		"isCovered": "Y",
-		"dateOfService": 1523505600000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -18,7 +18,7 @@
 		"groupSize": "L",
 		"inNetwork": "N",
 		"isCovered": "Y",
-		"dateOfService": 1547096400000,
+		"dateOfService": "2018-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -30,7 +30,7 @@
 		"groupSize": "L",
 		"inNetwork": "Y",
 		"isCovered": "Y",
-		"dateOfService": 1584763200000,
+		"dateOfService": "2014-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -42,7 +42,7 @@
 		"groupSize": "L",
 		"inNetwork": "Y",
 		"isCovered": "Y",
-		"dateOfService": 1531454400000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -54,7 +54,7 @@
 		"groupSize": "L",
 		"inNetwork": "Y",
 		"isCovered": "Y",
-		"dateOfService": 1565409600000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -66,7 +66,7 @@
 		"groupSize": null,
 		"inNetwork": "N",
 		"isCovered": "N",
-		"dateOfService": 1541217600000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -78,7 +78,7 @@
 		"groupSize": null,
 		"inNetwork": "N",
 		"isCovered": "Y",
-		"dateOfService": 1569902400000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -90,7 +90,7 @@
 		"groupSize": null,
 		"inNetwork": "Y",
 		"isCovered": "Y",
-		"dateOfService": 1569902400000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -102,7 +102,7 @@
 		"groupSize": "L",
 		"inNetwork": "N",
 		"isCovered": "Y",
-		"dateOfService": 1569902400000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null
@@ -114,7 +114,7 @@
 		"groupSize": "L",
 		"inNetwork": "Y",
 		"isCovered": "Y",
-		"dateOfService": 1569902400000,
+		"dateOfService": "2019-03-25",
 		"coveredInFull": null,
 		"copay": null,
 		"coInsurance": null

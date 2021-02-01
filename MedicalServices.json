@@ -1,0 +1,122 @@
+[
+	{
+		"placeOfService": "Inpatient",
+		"type": "adultImmunizations",
+		"plan": "PL123",
+		"groupSize": "L",
+		"inNetwork": "Y",
+		"isCovered": "Y",
+		"dateOfService": 1523505600000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Office",
+		"type": "allergyTesting",
+		"plan": "PL123",
+		"groupSize": "L",
+		"inNetwork": "N",
+		"isCovered": "Y",
+		"dateOfService": 1547096400000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Inpatient",
+		"type": "nonRoutineGynExam",
+		"plan": "PL555",
+		"groupSize": "L",
+		"inNetwork": "Y",
+		"isCovered": "Y",
+		"dateOfService": 1584763200000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Office",
+		"type": "prostateCaScreening",
+		"plan": "PL622",
+		"groupSize": "L",
+		"inNetwork": "Y",
+		"isCovered": "Y",
+		"dateOfService": 1531454400000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Inpatient",
+		"type": "preferredLab",
+		"plan": "PL898",
+		"groupSize": "L",
+		"inNetwork": "Y",
+		"isCovered": "Y",
+		"dateOfService": 1565409600000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Inpatient",
+		"type": "transgenderSurgery",
+		"plan": "PL012",
+		"groupSize": null,
+		"inNetwork": "N",
+		"isCovered": "N",
+		"dateOfService": 1541217600000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Office",
+		"type": "organDonation",
+		"plan": "PL012",
+		"groupSize": null,
+		"inNetwork": "N",
+		"isCovered": "Y",
+		"dateOfService": 1569902400000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Office",
+		"type": "catScans",
+		"plan": "PL711",
+		"groupSize": null,
+		"inNetwork": "Y",
+		"isCovered": "Y",
+		"dateOfService": 1569902400000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Office",
+		"type": "diabeticTesting",
+		"plan": "PL898",
+		"groupSize": "L",
+		"inNetwork": "N",
+		"isCovered": "Y",
+		"dateOfService": 1569902400000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	},
+	{
+		"placeOfService": "Outpatient",
+		"type": "clinicServices",
+		"plan": "PL788",
+		"groupSize": "L",
+		"inNetwork": "Y",
+		"isCovered": "Y",
+		"dateOfService": 1569902400000,
+		"coveredInFull": null,
+		"copay": null,
+		"coInsurance": null
+	}
+]

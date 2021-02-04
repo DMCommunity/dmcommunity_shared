@@ -1,4 +1,4 @@
-Place Of Service,Service Type,Plan,Group Size,In Network,Is Covered,Date Of Service,Date Of Service,Covered in Full,Copay,Coinsurance
+Place Of Service,Service Type,Plan,Group Size,In Network,Is Covered,Effective Period Start,Effective Period End,Covered in Full,Copay,Coinsurance
 Inpatient,dentalAccidental,PL123,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Outpatient,dentalAccidental,PL123,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,dentalAccidental,PL123,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
@@ -1589,699 +1589,699 @@ Outpatient,wigs,PL534,L,Y,Y,2016-01-01,2023-12-31,Y,N,N
 Inpatient,wigs,PL534,L,N,,2016-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,dentalAccidental,PL534,L,N,Y,2016-01-01,2023-12-31,N,N,Y
 Outpatient,dentalAccidental,PL534,L,N,Y,2016-01-01,2023-12-31,N,N,Y
-Inpatient,dentalAccidental,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,acupuncture,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Outpatient,acupuncture,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Inpatient,acupuncture,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,adultImmunizations,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,adultImmunizations,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,adultImmunizations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,adultPhysicalRoutine,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,adultPhysicalRoutine,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,adultPhysicalRoutine,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,allergyInjection,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,allergyInjection,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,allergyInjection,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,allergyTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,allergyTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,allergyTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ambulance,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,ambulance,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,ambulance,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
-Office,ambulance,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
-Outpatient,ambulatorySurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
-,ambulatorySurgery,PL666 ,L,N,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
-Inpatient,ambulatorySurgery,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,anesthesia,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,anesthesia,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
-Inpatient,anesthesia,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,anticoagulantTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,anticoagulantTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,anticoagulantTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,autismEvaluation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,autismEvaluation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,autismEvaluation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,autologousBlood,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,autologousBlood,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,autologousBlood,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,biofeedback,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,biofeedback,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,biofeedback,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,boneDensityTest,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Outpatient,boneDensityTest,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Inpatient,boneDensityTest,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,cardiacRehabilitation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,cardiacRehabilitation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,cardiacRehabilitation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Office,castingAndStrapping,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Outpatient,castingAndStrapping,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Inpatient,castingAndStrapping,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,cerumenWaxRemoval,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,cerumenWaxRemoval,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,cerumenWaxRemoval,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,chemotherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,chemotherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,chemotherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,childbirthClasses,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,childbirthClasses,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,childbirthClasses,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,childImmunizations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,childImmunizations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,childImmunizations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,chiropracticServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,chiropracticServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,chiropracticServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,chlamydiaScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,chlamydiaScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,chlamydiaScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,christianScienceServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,christianScienceServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,christianScienceServices,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,clinicalTrials,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,clinicalTrials,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,clinicalTrials,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,clinicServices,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,clinicServices,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,clinicServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,coeBariatricSurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,coeBariatricSurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,coeBariatricSurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,coeOrganTransplant,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,coeOrganTransplant,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,coeOrganTransplant,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,essentalDentalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,essentalDentalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,essentalDentalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,consciousSedation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,consciousSedation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,consciousSedation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,consultations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,consultations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,consultations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,contraceptiveDevices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,contraceptiveDevices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,contraceptiveDevices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,contrastAgents,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,contrastAgents,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,contrastAgents,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,cultredSubstituteSurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,cultredSubstituteSurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,cultredSubstituteSurgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diabeticDme,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,diabeticDme,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,diabeticDme,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diabeticDrugs,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,diabeticDrugs,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,diabeticDrugs,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Office,diabeticEducation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Outpatient,diabeticEducation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Inpatient,diabeticEducation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diabeticEyeExam,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,diabeticEyeExam,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,diabeticEyeExam,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diabeticFootCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,diabeticFootCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,diabeticFootCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diabeticShoes,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,diabeticShoes,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,diabeticShoes,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,diabeticSupplies,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,diabeticSupplies,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,diabeticSupplies,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Office,diabeticTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Outpatient,diabeticTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Inpatient,diabeticTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diagnosticImaging,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,diagnosticImaging,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,diagnosticImaging,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,diagnosticTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,diagnosticTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,diagnosticTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,dme,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Outpatient,dme,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Inpatient,dme,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Office,electiveAbortion,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Outpatient,electiveAbortion,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Inpatient,electiveAbortion,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,electiveSterilization,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,electiveSterilization,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,electiveSterilization,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,electrocardiogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,electrocardiogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,electrocardiogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,electroencephalogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,electroencephalogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,electroencephalogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,er,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,er,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,er,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,erCopay,N
-Office,er,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,facilityBasedPractitionerServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,erCopay,N
-,facilityBasedPractitionerServices,PL666 ,L,N,Y,2015-01-01,2023-12-31,N,erCopay,N
-Inpatient,facilityBasedPractitionerServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,familyPlanning,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,familyPlanning,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,familyPlanning,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,footCareSurgicalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,footCareSurgicalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,footCareSurgicalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,freestandingAmbSurg,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,freestandingAmbSurg,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,freestandingAmbSurg,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,freestandingLab,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,freestandingLab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
-Inpatient,freestandingLab,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,freestandingRadiology,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,freestandingRadiology,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,freestandingRadiology,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,gardasilImmunizations,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,gardasilImmunizations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,gardasilImmunizations,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,geneticCounseling,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,geneticCounseling,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,geneticCounseling,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,gymReimbursement,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,gymReimbursement,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,gymReimbursement,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,healthEducation,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,healthEducation,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,healthEducation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,hearingAidRepair,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,hearingAidRepair,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,hearingAidRepair,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,hearingAids,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,hearingAids,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,hearingAids,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,hearingExam,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,hearingExam,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,hearingExam,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,homeDialysis,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,homeDialysis,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,homeDialysis,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,homeHealthCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,homeHealthCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,homeHealthCare,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,homeInfusionTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,homeInfusionTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,homeInfusionTherapy,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,hospice ,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,hospice ,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,hospice ,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,hyberbaricOxygenTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,hyberbaricOxygenTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,hyberbaricOxygenTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,infertilityServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,infertilityServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,infertilityServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,inhalationTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,inhalationTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,inhalationTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,inpatientMaternity,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,inpatientMaternity,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,inpatientMaternity,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ipChemicalRehab,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,ipChemicalRehab,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipChemicalRehab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ipDetox,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,ipDetox,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipDetox,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ipHospital,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,ipHospital,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipHospital,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ipMentalHealth,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,ipMentalHealth,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipMentalHealth,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ipRehab,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,ipRehab,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipRehab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,ipSnf,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,ipSnf,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipSnf,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,laboratoryServices,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,laboratoryServices,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,laboratoryServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,leadScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,leadScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,leadScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,maternityBirthCenters,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,maternityBirthCenters,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,maternityBirthCenters,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,medicalAbortion,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,medicalAbortion,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,medicalAbortion,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,mhSaLabScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,mhSaLabScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,mhSaLabScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,mriMra,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,mriMra,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,mriMra,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,neuropsychologicalTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,neuropsychologicalTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,neuropsychologicalTesting,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,newbornNursery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,newbornNursery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,newbornNursery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,nonRoutineGynExam,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,nonRoutineGynExam,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,nonRoutineGynExam,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,nonRoutineMammogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,nonRoutineMammogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,nonRoutineMammogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Office,nonRoutinePapSmear,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Outpatient,nonRoutinePapSmear,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,N,N
-Inpatient,nonRoutinePapSmear,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,nuclearMedicine,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,nuclearMedicine,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,nuclearMedicine,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,nutritionalCounseling,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,nutritionalCounseling,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,nutritionalCounseling,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,obstetricalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,obstetricalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,obstetricalServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,occupationalTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,occupationalTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,occupationalTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,opChemical,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,opChemical,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,opChemical,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,opDialysisFacility,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,opDialysisFacility,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,opDialysisFacility,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Office,opDialysisPhysician,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,opDialysisPhysician,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,opDialysisPhysician,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,opMentalHealth,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,opMentalHealth,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,opMentalHealth,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,organTransplant,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,organTransplant,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,organTransplant,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,orthotics,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,orthotics,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,orthotics,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,orthoticShoeInserts,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,orthoticShoeInserts,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,orthoticShoeInserts,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,painManagementServices,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,painManagementServices,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,painManagementServices,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,pcpVisit,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,pcpVisit,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,pcpVisit,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,petScans,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,petScans,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,petScans,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,physicalTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,physicalTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,physicalTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,preferredLab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,preferredLab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,preferredLab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,preferredRadiology,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,preferredRadiology,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,preferredRadiology,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,preNatalVisits,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,preNatalVisits,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,preNatalVisits,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,prostateCaScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,prostateCaScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,prostateCaScreening,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,prosthetics,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,prosthetics,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,prosthetics,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,pulmonaryRehab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Outpatient,pulmonaryRehab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Inpatient,pulmonaryRehab,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,radiationTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,radiationTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,radiationTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,routineFootCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,routineFootCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,routineFootCare,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,routineGynExam,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,routineGynExam,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,routineGynExam,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,routineMammogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Outpatient,routineMammogram,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,routineMammogram,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,routinePapSmear,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,routinePapSmear,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,routinePapSmear,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,secondOpinions,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Outpatient,secondOpinions,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Inpatient,secondOpinions,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
-Office,selfInjectibles,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Outpatient,selfInjectibles,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,selfInjectibles,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,sickEyeExams,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,sickEyeExams,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,sickEyeExams,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,sleepStudies,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,sleepStudies,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,sleepStudies,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,smokingCessation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,smokingCessation,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,smokingCessation,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,specialistVisit,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,specialistVisit,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,specialistVisit,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,speechTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,speechTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,speechTherapy,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,surgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,surgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,surgery,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Office,tmjDental,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,tmjDental,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,tmjDental,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,travelImmunizations,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,travelImmunizations,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,travelImmunizations,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,urgentCare,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,urgentCare,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,urgentCare,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,urgentCare,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Outpatient,visionContactLens,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-,visionContactLens,PL666 ,L,N,Y,2015-01-01,2023-12-31,N,specialistCopay,N
-Inpatient,visionContactLens,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,visionExam,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,visionExam,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,visionExam,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,visionFrame,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Outpatient,visionFrame,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
-Inpatient,visionFrame,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,visionLens,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,visionLens,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,visionLens,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,weightManagementProgram,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,weightManagementProgram,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,weightManagementProgram,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Office,wellChildVisits,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Outpatient,wellChildVisits,PL666 ,L,Y,N,2015-01-01,2023-12-31,N,N,N
-Inpatient,wellChildVisits,PL666 ,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,wigs,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Outpatient,wigs,PL666 ,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,wigs,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
-Office,dentalAccidental,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Outpatient,dentalAccidental,PL666 ,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
-Inpatient,dentalAccidental,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,acupuncture,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Outpatient,acupuncture,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Inpatient,acupuncture,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,adultImmunizations,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,adultImmunizations,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,adultImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,adultPhysicalRoutine,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,adultPhysicalRoutine,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Inpatient,dentalAccidental,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,acupuncture,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Outpatient,acupuncture,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Inpatient,acupuncture,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,adultImmunizations,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,adultImmunizations,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,adultImmunizations,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,adultPhysicalRoutine,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,adultPhysicalRoutine,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,adultPhysicalRoutine,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,allergyInjection,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,allergyInjection,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,allergyInjection,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,allergyTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,allergyTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,allergyTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ambulance,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,ambulance,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,ambulance,PL666,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
+Office,ambulance,PL666,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
+Outpatient,ambulatorySurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
+,ambulatorySurgery,PL666,L,N,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
+Inpatient,ambulatorySurgery,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,anesthesia,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,anesthesia,PL666,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,anesthesia,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,anticoagulantTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,anticoagulantTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,anticoagulantTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,autismEvaluation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,autismEvaluation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,autismEvaluation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,autologousBlood,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,autologousBlood,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,autologousBlood,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,biofeedback,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,biofeedback,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,biofeedback,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,boneDensityTest,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Outpatient,boneDensityTest,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Inpatient,boneDensityTest,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,cardiacRehabilitation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,cardiacRehabilitation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,cardiacRehabilitation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Office,castingAndStrapping,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Outpatient,castingAndStrapping,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Inpatient,castingAndStrapping,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,cerumenWaxRemoval,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,cerumenWaxRemoval,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,cerumenWaxRemoval,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,chemotherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,chemotherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,chemotherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,childbirthClasses,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,childbirthClasses,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,childbirthClasses,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,childImmunizations,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,childImmunizations,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,childImmunizations,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,chiropracticServices,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,chiropracticServices,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,chiropracticServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,chlamydiaScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,chlamydiaScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,chlamydiaScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,christianScienceServices,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,christianScienceServices,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,christianScienceServices,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,clinicalTrials,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,clinicalTrials,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,clinicalTrials,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,clinicServices,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,clinicServices,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,clinicServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,coeBariatricSurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,coeBariatricSurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,coeBariatricSurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,coeOrganTransplant,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,coeOrganTransplant,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,coeOrganTransplant,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,essentalDentalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,essentalDentalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,essentalDentalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,consciousSedation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,consciousSedation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,consciousSedation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,consultations,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,consultations,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,consultations,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,contraceptiveDevices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,contraceptiveDevices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,contraceptiveDevices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,contrastAgents,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,contrastAgents,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,contrastAgents,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,cultredSubstituteSurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,cultredSubstituteSurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,cultredSubstituteSurgery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticDme,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diabeticDme,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diabeticDme,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticDrugs,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticDrugs,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticDrugs,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Office,diabeticEducation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,diabeticEducation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Inpatient,diabeticEducation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticEyeExam,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticEyeExam,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticEyeExam,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticFootCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticFootCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticFootCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticShoes,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticShoes,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticShoes,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,diabeticSupplies,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticSupplies,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticSupplies,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Office,diabeticTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,diabeticTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Inpatient,diabeticTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diagnosticImaging,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diagnosticImaging,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diagnosticImaging,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diagnosticTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diagnosticTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diagnosticTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,dme,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Outpatient,dme,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Inpatient,dme,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Office,electiveAbortion,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Outpatient,electiveAbortion,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Inpatient,electiveAbortion,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,electiveSterilization,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,electiveSterilization,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,electiveSterilization,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,electrocardiogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,electrocardiogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,electrocardiogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,electroencephalogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,electroencephalogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,electroencephalogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,er,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,er,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,er,PL666,L,Y,Y,2015-01-01,2023-12-31,N,erCopay,N
+Office,er,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,facilityBasedPractitionerServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,erCopay,N
+,facilityBasedPractitionerServices,PL666,L,N,Y,2015-01-01,2023-12-31,N,erCopay,N
+Inpatient,facilityBasedPractitionerServices,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,familyPlanning,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,familyPlanning,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,familyPlanning,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,footCareSurgicalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,footCareSurgicalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,footCareSurgicalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,freestandingAmbSurg,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,freestandingAmbSurg,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,freestandingAmbSurg,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,freestandingLab,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,freestandingLab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,freestandingLab,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,freestandingRadiology,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,freestandingRadiology,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,freestandingRadiology,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,gardasilImmunizations,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,gardasilImmunizations,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,gardasilImmunizations,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,geneticCounseling,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,geneticCounseling,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,geneticCounseling,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,gymReimbursement,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,gymReimbursement,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,gymReimbursement,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,healthEducation,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,healthEducation,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,healthEducation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,hearingAidRepair,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,hearingAidRepair,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,hearingAidRepair,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,hearingAids,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,hearingAids,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,hearingAids,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,hearingExam,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,hearingExam,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,hearingExam,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,homeDialysis,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,homeDialysis,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,homeDialysis,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,homeHealthCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,homeHealthCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,homeHealthCare,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,homeInfusionTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,homeInfusionTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,homeInfusionTherapy,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,hospice ,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,hospice ,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,hospice ,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,hyberbaricOxygenTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,hyberbaricOxygenTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,hyberbaricOxygenTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,infertilityServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,infertilityServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,infertilityServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,inhalationTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,inhalationTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,inhalationTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,inpatientMaternity,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,inpatientMaternity,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,inpatientMaternity,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ipChemicalRehab,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,ipChemicalRehab,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,ipChemicalRehab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ipDetox,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,ipDetox,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,ipDetox,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ipHospital,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,ipHospital,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,ipHospital,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ipMentalHealth,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,ipMentalHealth,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,ipMentalHealth,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ipRehab,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,ipRehab,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,ipRehab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ipSnf,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,ipSnf,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,ipSnf,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,laboratoryServices,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,laboratoryServices,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,laboratoryServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,leadScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,leadScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,leadScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,maternityBirthCenters,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,maternityBirthCenters,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,maternityBirthCenters,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,medicalAbortion,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,medicalAbortion,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,medicalAbortion,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,mhSaLabScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,mhSaLabScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,mhSaLabScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,mriMra,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,mriMra,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,mriMra,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,neuropsychologicalTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,neuropsychologicalTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,neuropsychologicalTesting,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,newbornNursery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,newbornNursery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,newbornNursery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nonRoutineGynExam,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,nonRoutineGynExam,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,nonRoutineGynExam,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nonRoutineMammogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,nonRoutineMammogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,nonRoutineMammogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Office,nonRoutinePapSmear,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,nonRoutinePapSmear,PL666,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Inpatient,nonRoutinePapSmear,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nuclearMedicine,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,nuclearMedicine,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,nuclearMedicine,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nutritionalCounseling,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,nutritionalCounseling,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,nutritionalCounseling,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,obstetricalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,obstetricalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,obstetricalServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,occupationalTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,occupationalTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,occupationalTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,opChemical,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,opChemical,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,opChemical,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,opDialysisFacility,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,opDialysisFacility,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,opDialysisFacility,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Office,opDialysisPhysician,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,opDialysisPhysician,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,opDialysisPhysician,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,opMentalHealth,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,opMentalHealth,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,opMentalHealth,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,organTransplant,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,organTransplant,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,organTransplant,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,orthotics,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Outpatient,orthotics,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Inpatient,orthotics,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,orthoticShoeInserts,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,orthoticShoeInserts,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,orthoticShoeInserts,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,painManagementServices,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,painManagementServices,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,painManagementServices,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,pcpVisit,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,pcpVisit,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,pcpVisit,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,petScans,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,petScans,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,petScans,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,physicalTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,physicalTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,physicalTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,preferredLab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,preferredLab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,preferredLab,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,preferredRadiology,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,preferredRadiology,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,preferredRadiology,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,preNatalVisits,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,preNatalVisits,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,preNatalVisits,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,prostateCaScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,prostateCaScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,prostateCaScreening,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,prosthetics,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,prosthetics,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,prosthetics,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,pulmonaryRehab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Outpatient,pulmonaryRehab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Inpatient,pulmonaryRehab,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,radiationTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,radiationTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,radiationTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,routineFootCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,routineFootCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,routineFootCare,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,routineGynExam,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,routineGynExam,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,routineGynExam,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,routineMammogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,routineMammogram,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,routineMammogram,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,routinePapSmear,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,routinePapSmear,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,routinePapSmear,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,secondOpinions,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Outpatient,secondOpinions,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,secondOpinions,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Office,selfInjectibles,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Outpatient,selfInjectibles,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,selfInjectibles,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,sickEyeExams,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,sickEyeExams,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,sickEyeExams,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,sleepStudies,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,sleepStudies,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,sleepStudies,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,smokingCessation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,smokingCessation,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,smokingCessation,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,specialistVisit,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,specialistVisit,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,specialistVisit,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,speechTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,speechTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,speechTherapy,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,surgery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,surgery,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,surgery,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,tmjDental,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,tmjDental,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,tmjDental,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,travelImmunizations,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,travelImmunizations,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,travelImmunizations,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,urgentCare,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,urgentCare,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,urgentCare,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,urgentCare,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,visionContactLens,PL666,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+,visionContactLens,PL666,L,N,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,visionContactLens,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,visionExam,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,visionExam,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,visionExam,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,visionFrame,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,visionFrame,PL666,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,visionFrame,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,visionLens,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,visionLens,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,visionLens,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,weightManagementProgram,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,weightManagementProgram,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,weightManagementProgram,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,wellChildVisits,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,wellChildVisits,PL666,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,wellChildVisits,PL666,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
+Office,wigs,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,wigs,PL666,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,wigs,PL666,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,dentalAccidental,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Outpatient,dentalAccidental,PL666,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Inpatient,dentalAccidental,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,acupuncture,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,acupuncture,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,acupuncture,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,adultImmunizations,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,adultImmunizations,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,adultImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,adultPhysicalRoutine,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,adultPhysicalRoutine,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,adultPhysicalRoutine,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,allergyInjection,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,allergyInjection,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,allergyInjection,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,allergyTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,allergyTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,allergyTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,ambulanceCopay,N
-Office,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,ambulanceCopay,N
-Outpatient,ambulatorySurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,ambulanceCopay,N
+Office,allergyInjection,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,allergyInjection,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,allergyInjection,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,allergyTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,allergyTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,allergyTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
+Office,ambulance,PL455,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
+Outpatient,ambulatorySurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
 ,ambulatorySurgery,PL455,L,N,Y,2015-01-01,2023-12-31,N,ambulanceCopay,N
 Inpatient,ambulatorySurgery,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,anesthesia,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,anesthesia,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
-Inpatient,anesthesia,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,anticoagulantTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,anticoagulantTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,anticoagulantTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,autismEvaluation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,autismEvaluation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,autismEvaluation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,autologousBlood,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Outpatient,autologousBlood,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Inpatient,autologousBlood,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,biofeedback,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,biofeedback,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Outpatient,anesthesia,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,anesthesia,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,anticoagulantTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,anticoagulantTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,anticoagulantTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,autismEvaluation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,autismEvaluation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,autismEvaluation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,autologousBlood,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,autologousBlood,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,autologousBlood,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,biofeedback,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,biofeedback,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,biofeedback,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,boneDensityTest,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
 Outpatient,boneDensityTest,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Inpatient,boneDensityTest,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,cardiacRehabilitation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,cardiacRehabilitation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,cardiacRehabilitation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,castingAndStrapping,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,castingAndStrapping,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,castingAndStrapping,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,catScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,catScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,catScans,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,cerumenWaxRemoval,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,cerumenWaxRemoval,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,cerumenWaxRemoval,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,chemotherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,chemotherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,chemotherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,childbirthClasses,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,childbirthClasses,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,childbirthClasses,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,childImmunizations,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,childImmunizations,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,childImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,chiropracticServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,chiropracticServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,chiropracticServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,chlamydiaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,chlamydiaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,chlamydiaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,christianScienceServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,christianScienceServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,christianScienceServices,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,clinicalTrials,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,clinicalTrials,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,clinicalTrials,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,clinicServices,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,clinicServices,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
+Inpatient,boneDensityTest,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,cardiacRehabilitation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,cardiacRehabilitation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,cardiacRehabilitation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,castingAndStrapping,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,castingAndStrapping,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,castingAndStrapping,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,catScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,catScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,catScans,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,cerumenWaxRemoval,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,cerumenWaxRemoval,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,cerumenWaxRemoval,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,chemotherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,chemotherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,chemotherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,childbirthClasses,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,childbirthClasses,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,childbirthClasses,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,childImmunizations,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,childImmunizations,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,childImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,chiropracticServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,chiropracticServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,chiropracticServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,chlamydiaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,chlamydiaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,chlamydiaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,christianScienceServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,christianScienceServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,christianScienceServices,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,clinicalTrials,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,clinicalTrials,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,clinicalTrials,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,clinicServices,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,clinicServices,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
 Inpatient,clinicServices,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,coeBariatricSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,coeBariatricSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,coeBariatricSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Office,coeBariatricSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,coeBariatricSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,coeBariatricSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,coeOrganTransplant,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,coeOrganTransplant,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,coeOrganTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Inpatient,coeOrganTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Office,essentalDentalServices,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,essentalDentalServices,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,essentalDentalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,consciousSedation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,consciousSedation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,consciousSedation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,consultations,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,consultations,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
-Inpatient,consultations,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,contraceptiveDevices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,contraceptiveDevices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,contraceptiveDevices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Office,contrastAgents,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,contrastAgents,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,contrastAgents,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,cultredSubstituteSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,cultredSubstituteSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,cultredSubstituteSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticDme,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,diabeticDme,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,diabeticDme,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticDrugs,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,diabeticDrugs,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,diabeticDrugs,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,diabeticEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,diabeticEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticEyeExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,diabeticEyeExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,diabeticEyeExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,diabeticFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,diabeticFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticShoes,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,diabeticShoes,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
+Inpatient,essentalDentalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,consciousSedation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,consciousSedation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,consciousSedation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,consultations,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,consultations,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,consultations,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,contraceptiveDevices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,contraceptiveDevices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,contraceptiveDevices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Office,contrastAgents,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,contrastAgents,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,contrastAgents,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,cultredSubstituteSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,cultredSubstituteSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,cultredSubstituteSurgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticDme,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diabeticDme,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diabeticDme,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticDrugs,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticDrugs,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticDrugs,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,diabeticEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Inpatient,diabeticEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticEyeExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diabeticEyeExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diabeticEyeExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diabeticFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diabeticFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticShoes,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diabeticShoes,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Inpatient,diabeticShoes,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,diabeticSupplies,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,diabeticSupplies,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,diabeticSupplies,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diabeticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,diabeticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,diabeticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,diagnosticImaging,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,diagnosticImaging,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,diagnosticImaging,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,diagnosticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,diagnosticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,diagnosticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,dme,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,dme,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,dme,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,electiveAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,dmeCoinsurance,N
-Outpatient,electiveAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,dmeCoinsurance,N
-Inpatient,electiveAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,electiveSterilization,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,electiveSterilization,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
-Inpatient,electiveSterilization,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,electrocardiogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,electrocardiogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
-Inpatient,electrocardiogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,electroencephalogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,electroencephalogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,electroencephalogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,er,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,er,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
+Office,diabeticSupplies,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diabeticSupplies,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,diabeticSupplies,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diabeticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,diabeticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Inpatient,diabeticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,diagnosticImaging,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,diagnosticImaging,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,diagnosticImaging,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,diagnosticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,diagnosticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,diagnosticTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,dme,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,dme,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,dme,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,electiveAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Outpatient,electiveAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Inpatient,electiveAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,electiveSterilization,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,electiveSterilization,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,electiveSterilization,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,electrocardiogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,electrocardiogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,electrocardiogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,electroencephalogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,electroencephalogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,electroencephalogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,er,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,er,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Inpatient,er,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,er,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,facilityBasedPractitionerServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,erCopay,N
-,facilityBasedPractitionerServices,PL455,L,N,Y,2015-01-01,2023-12-31,N ,erCopay,N
-Inpatient,facilityBasedPractitionerServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Outpatient,facilityBasedPractitionerServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,erCopay,N
+,facilityBasedPractitionerServices,PL455,L,N,Y,2015-01-01,2023-12-31,N,erCopay,N
+Inpatient,facilityBasedPractitionerServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Office,familyPlanning,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,familyPlanning,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,familyPlanning,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,footCareSurgicalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,footCareSurgicalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,footCareSurgicalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,freestandingAmbSurg,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,freestandingAmbSurg,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
+Outpatient,familyPlanning,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,familyPlanning,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,footCareSurgicalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,footCareSurgicalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,footCareSurgicalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,freestandingAmbSurg,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,freestandingAmbSurg,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Inpatient,freestandingAmbSurg,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,freestandingLab,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,freestandingLab,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
+Outpatient,freestandingLab,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
 Inpatient,freestandingLab,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,freestandingRadiology,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,freestandingRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Outpatient,freestandingRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,freestandingRadiology,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,gardasilImmunizations,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Outpatient,gardasilImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,gardasilImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,geneticCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,geneticCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,geneticCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,gymReimbursement,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,gymReimbursement,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,gymReimbursement,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,healthEducation,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,healthEducation,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,healthEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,hearingAidRepair,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,hearingAidRepair,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,hearingAidRepair,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,"""$1500""",N
-Office,hearingAids,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,"""$1500""",N
-Outpatient,hearingAids,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,"""$1500""",N
-Inpatient,hearingAids,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,"""$1500""",N
-Office,hearingExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,"""$1500""",N
-Outpatient,hearingExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,"""$1500""",N
-Inpatient,hearingExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,homeDialysis,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,homeDialysis,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
+Outpatient,gardasilImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,gardasilImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,geneticCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,geneticCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,geneticCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,gymReimbursement,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,gymReimbursement,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,gymReimbursement,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,healthEducation,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,healthEducation,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,healthEducation,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,hearingAidRepair,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,hearingAidRepair,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,hearingAidRepair,PL455,L,Y,Y,2015-01-01,2023-12-31,N,"""$1500""",N
+Office,hearingAids,PL455,L,Y,Y,2015-01-01,2023-12-31,N,"""$1500""",N
+Outpatient,hearingAids,PL455,L,Y,Y,2015-01-01,2023-12-31,N,"""$1500""",N
+Inpatient,hearingAids,PL455,L,Y,Y,2015-01-01,2023-12-31,N,"""$1500""",N
+Office,hearingExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,"""$1500""",N
+Outpatient,hearingExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,"""$1500""",N
+Inpatient,hearingExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,homeDialysis,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,homeDialysis,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Inpatient,homeDialysis,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,homeHealthCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,homeHealthCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
+Office,homeHealthCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,homeHealthCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
 Inpatient,homeHealthCare,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,homeInfusionTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,homeInfusionTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
+Office,homeInfusionTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,homeInfusionTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
 Inpatient,homeInfusionTherapy,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,hospice,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,hospice,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,hospice,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,hyberbaricOxygenTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,hyberbaricOxygenTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,hyberbaricOxygenTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,infertilityServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,infertilityServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,infertilityServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,inhalationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,inhalationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,inhalationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,inpatientMaternity,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,inpatientMaternity,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,inpatientMaternity,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Office,hospice,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,hospice,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,hospice,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,hyberbaricOxygenTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,hyberbaricOxygenTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,hyberbaricOxygenTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,infertilityServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,infertilityServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,infertilityServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,inhalationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,inhalationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,inhalationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,inpatientMaternity,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,inpatientMaternity,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,inpatientMaternity,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,invitro,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,invitro,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,invitro,PL455,L,Y,N,2015-01-01,2023-12-31,N ,N ,N
-Office,ipChemicalRehab,PL455,L,Y,N,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,ipChemicalRehab,PL455,L,Y,N,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,ipChemicalRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Inpatient,invitro,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,ipChemicalRehab,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,ipChemicalRehab,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,ipChemicalRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,ipDetox,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,ipDetox,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipDetox,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Inpatient,ipDetox,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,ipHospital,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,ipHospital,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipHospital,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Inpatient,ipHospital,PL455,L,Y,N,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,ipMentalHealth,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,ipMentalHealth,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipMentalHealth,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Inpatient,ipMentalHealth,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,ipRehab,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,ipRehab,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Inpatient,ipRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,ipSnf,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,ipSnf,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,ipSnf,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,ipSnfCopay,N
+Inpatient,ipSnf,PL455,L,Y,Y,2015-01-01,2023-12-31,N,ipSnfCopay,N
 Office,laboratoryServices,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,laboratoryServices,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,laboratoryServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,leadScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,leadScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,leadScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,maternityBirthCenters,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,maternityBirthCenters,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,maternityBirthCenters,PL455,L,Y,N,2015-01-01,2023-12-31,N ,Copay Minimal,N
+Inpatient,laboratoryServices,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,leadScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,leadScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,leadScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,maternityBirthCenters,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,maternityBirthCenters,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,maternityBirthCenters,PL455,L,Y,N,2015-01-01,2023-12-31,N,Copay Minimal,N
 Office,medicalAbortion,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,medicalAbortion,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,medicalAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,mhSaLabScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,mhSaLabScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
-Inpatient,mhSaLabScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,mriMra,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,mriMra,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,mriMra,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,neuropsychologicalTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,neuropsychologicalTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Inpatient,medicalAbortion,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,mhSaLabScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,mhSaLabScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,mhSaLabScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,mriMra,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,mriMra,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,mriMra,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,neuropsychologicalTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,neuropsychologicalTesting,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,neuropsychologicalTesting,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,newbornNursery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Outpatient,newbornNursery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Inpatient,newbornNursery,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,newbornNursery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,newbornNursery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,newbornNursery,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Office,nonRoutineGynExam,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,nonRoutineGynExam,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,nonRoutineGynExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,nonRoutineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,nonRoutineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,nonRoutineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,nonRoutinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,nonRoutinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,nonRoutinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,nuclearMedicine,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,nuclearMedicine,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,nuclearMedicine,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,nutritionalCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,nutritionalCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,nutritionalCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,obstetricalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,obstetricalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,obstetricalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,occupationalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,occupationalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,occupationalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,opChemical,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,opChemical,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
+Inpatient,nonRoutineGynExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nonRoutineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,nonRoutineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,nonRoutineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,nonRoutinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,nonRoutinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,nonRoutinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nuclearMedicine,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,nuclearMedicine,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,nuclearMedicine,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,nutritionalCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,nutritionalCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,nutritionalCounseling,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,obstetricalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,obstetricalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,obstetricalServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,occupationalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,occupationalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,occupationalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,opChemical,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,opChemical,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
 Inpatient,opChemical,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,opDialysisFacility,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,opDialysisFacility,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
+Office,opDialysisFacility,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,opDialysisFacility,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Inpatient,opDialysisFacility,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,opDialysisPhysician,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,opDialysisPhysician,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
+Office,opDialysisPhysician,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,opDialysisPhysician,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
 Inpatient,opDialysisPhysician,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,opMentalHealth,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
 Outpatient,opMentalHealth,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
 Inpatient,opMentalHealth,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,organTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,organTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,organTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,organTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,organTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,organTransplant,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Office,organDonation,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,organDonation,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Inpatient,organDonation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N 
+Inpatient,organDonation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N 
 Office,orthotics,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Outpatient,orthotics,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Inpatient,orthotics,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
@@ -2294,102 +2294,102 @@ Inpatient,painManagementServices,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minim
 Office,pcpVisit,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Outpatient,pcpVisit,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
 Inpatient,pcpVisit,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,petScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,petScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,petScans,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,physicalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,physicalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,physicalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,preferredLab,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,preferredLab,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,preferredLab,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,preferredRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,preferredRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,preferredRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,preNatalVisits,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,preNatalVisits,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,preNatalVisits,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,prostateCaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,prostateCaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,prostateCaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,prosthetics,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,prosthetics,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,petScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,petScans,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,petScans,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,physicalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,physicalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,physicalTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,preferredLab,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,preferredLab,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,preferredLab,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,preferredRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,preferredRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,preferredRadiology,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,preNatalVisits,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,preNatalVisits,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,preNatalVisits,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,prostateCaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,prostateCaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,prostateCaScreening,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,prosthetics,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,prosthetics,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,prosthetics,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Office,pulmonaryRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Outpatient,pulmonaryRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
-Inpatient,pulmonaryRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,radiationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Outpatient,radiationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,specialistCopay,N
-Inpatient,radiationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,routineFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,routineFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Inpatient,pulmonaryRehab,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,radiationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Outpatient,radiationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,specialistCopay,N
+Inpatient,radiationTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,routineFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,routineFootCare,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,routineFootCare,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,routineGynExam,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,routineGynExam,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
+Office,routineGynExam,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,routineGynExam,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
 Inpatient,routineGynExam,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,routineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,routineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,routineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,routineMammogram,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,routineMammogram,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,routinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,routinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,routinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,routinePapSmear,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,routinePapSmear,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,secondOpinions,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,secondOpinions,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,secondOpinions,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,selfInjectibles,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,selfInjectibles,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,selfInjectibles,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Office,sickEyeExams,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,sickEyeExams,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,sickEyeExams,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,sleepStudies,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,sleepStudies,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,sleepStudies,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,smokingCessation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,smokingCessation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,smokingCessation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,specialistVisit,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,specialistVisit,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,secondOpinions,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,secondOpinions,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,secondOpinions,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,selfInjectibles,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,selfInjectibles,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,selfInjectibles,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Office,sickEyeExams,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Outpatient,sickEyeExams,PL455,L,Y,Y,2015-01-01,2023-12-31,N,N,N
+Inpatient,sickEyeExams,PL455,L,Y,N,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,sleepStudies,PL455,L,Y,N,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,sleepStudies,PL455,L,Y,N,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,sleepStudies,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,smokingCessation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,smokingCessation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,smokingCessation,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,specialistVisit,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,specialistVisit,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,specialistVisit,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,speechTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,speechTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,speechTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Office,surgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Outpatient,surgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay,N
-Inpatient,surgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,Copay Minimal,N
-Office,tmjDental,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,tmjDental,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,opSurgeryCopay,N
-Inpatient,tmjDental,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,travelImmunizations,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,travelImmunizations,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,travelImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Office,urgentCare,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,urgentCare,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
+Office,speechTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,speechTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,speechTherapy,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Office,surgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Outpatient,surgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay,N
+Inpatient,surgery,PL455,L,Y,Y,2015-01-01,2023-12-31,N,Copay Minimal,N
+Office,tmjDental,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,tmjDental,PL455,L,Y,Y,2015-01-01,2023-12-31,N,opSurgeryCopay,N
+Inpatient,tmjDental,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,travelImmunizations,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,travelImmunizations,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,travelImmunizations,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Office,urgentCare,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,urgentCare,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
 Inpatient,urgentCare,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,urgentCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay + 10,N
-Outpatient,visionContactLens,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpCopay + 10,N
+Office,urgentCare,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
+Outpatient,visionContactLens,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
 ,visionContactLens,PL455,L,N,Y,2015-01-01,2023-12-31,N,pcpCopay + 10,N
-Inpatient,visionContactLens,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,visionExam,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,visionExam,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,visionExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Office,visionFrame,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Outpatient,visionFrame,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,pcpAndSpec,N
-Inpatient,visionFrame,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,visionLens,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,visionLens,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,visionLens,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,weightManagementProgram,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,weightManagementProgram,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Inpatient,weightManagementProgram,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Office,wellChildVisits,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
-Outpatient,wellChildVisits,PL455,L,Y,N ,2015-01-01,2023-12-31,N ,N ,N
+Inpatient,visionContactLens,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,visionExam,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,visionExam,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,visionExam,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Office,visionFrame,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Outpatient,visionFrame,PL455,L,Y,Y,2015-01-01,2023-12-31,N,pcpAndSpec,N
+Inpatient,visionFrame,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,visionLens,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,visionLens,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,visionLens,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,weightManagementProgram,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,weightManagementProgram,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Inpatient,weightManagementProgram,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Office,wellChildVisits,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
+Outpatient,wellChildVisits,PL455,L,Y,N,2015-01-01,2023-12-31,N,N,N
 Inpatient,wellChildVisits,PL455,L,Y,,2015-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
-Office,wigs,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Outpatient,wigs,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N ,N
-Inpatient,wigs,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,dmeCoinsurance,N
-Office,dentalAccidental,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,dmeCoinsurance,N
-Outpatient,dentalAccidental,PL455,L,Y,Y,2015-01-01,2023-12-31,N ,dmeCoinsurance,N
+Office,wigs,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Outpatient,wigs,PL455,L,Y,Y,2015-01-01,2023-12-31,Y,N,N
+Inpatient,wigs,PL455,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Office,dentalAccidental,PL455,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
+Outpatient,dentalAccidental,PL455,L,Y,Y,2015-01-01,2023-12-31,N,dmeCoinsurance,N
 Inpatient,dentalAccidental,PL711,L,Y,Y,2016-01-01,2023-12-31,Y,N,N
 Outpatient,dentalAccidental,PL711,L,Y,Y,2016-01-01,2023-12-31,Y,N,N
 Office,dentalAccidental,PL711,L,Y,Y,2016-01-01,2023-12-31,Y,N,N
@@ -6772,7 +6772,7 @@ Outpatient,urgentCare,PL222,L,Y,N,2016-01-01,2023-12-31,N,N,N
 Inpatient,urgentCare,PL222,L,Y,,2016-01-01,2023-12-31,Ineligible POS,Ineligible POS,Ineligible POS
 Office,urgentCare,PL222,L,Y,Y,2016-01-01,2023-12-31,N,pcpCopay + 10,N
 Outpatient,visionContactLens,PL222,L,Y,Y,2016-01-01,2023-12-31,N,pcpCopay + 10,N
-,visionContactLens,PL222,L,N,Y,2016-01-01,2023-12-31,N,pcpCopay + 10,
+,visionContactLens,PL222,L,N,Y,2016-01-01,2023-12-31,N,pcpCopay + 10,N
 Inpatient,visionContactLens,PL222,L,Y,N,2016-01-01,2023-12-31,N,N,N
 Office,visionExam,PL222,L,Y,N,2016-01-01,2023-12-31,N,N,N
 Outpatient,visionExam,PL222,L,Y,N,2016-01-01,2023-12-31,N,N,N

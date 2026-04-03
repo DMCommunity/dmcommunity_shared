@@ -1,0 +1,45 @@
+Medication 1,Medication 2,Interaction,Risk
+Levofloxacin,Coumadin,Increases anticoagulant effect,Elevated bleeding risk
+Levofloxacin,"Antacids (aluminum, magnesium)",Reduces levofloxacin absorption,Reduced antibiotic effectiveness
+Levofloxacin,Calcium supplements,Reduces levofloxacin absorption,Reduced antibiotic effectiveness
+Levofloxacin,Iron supplements,Reduces levofloxacin absorption,Reduced antibiotic effectiveness
+Levofloxacin,Zinc supplements,Reduces levofloxacin absorption,Reduced antibiotic effectiveness
+Levofloxacin,"NSAIDs (ibuprofen, naproxen)",Increases CNS stimulation,Seizure risk
+Levofloxacin,"Antidiabetic drugs (insulin, glipizide)",Disrupts blood sugar regulation,Hypoglycemia or hyperglycemia
+Levofloxacin,"Antiarrhythmics (amiodarone, sotalol)",Prolongs QT interval,Serious cardiac arrhythmia
+Levofloxacin,"Antipsychotics (haloperidol, quetiapine)",Prolongs QT interval,Serious cardiac arrhythmia
+Levofloxacin,"Antidepressants (tricyclics, SSRIs)",Prolongs QT interval,Serious cardiac arrhythmia
+Levofloxacin,Corticosteroids (prednisone),Increases tendon stress,Tendon rupture risk
+Levofloxacin,Cyclosporine,Increases cyclosporine toxicity,Kidney damage risk
+Levofloxacin,Theophylline,Raises theophylline levels,Toxicity risk
+Levofloxacin,Probenecid,Reduces levofloxacin clearance,Increased levofloxacin toxicity
+Levofloxacin,Sucralfate,Reduces levofloxacin absorption,Reduced antibiotic effectiveness
+Amoxicillin,Methotrexate,Reduces methotrexate clearance,Methotrexate toxicity risk
+Amoxicillin,Allopurinol (gout medication),Increases allergic reaction risk,"Skin rash, hypersensitivity"
+Amoxicillin,Probenecid,Reduces amoxicillin clearance,Increased amoxicillin levels
+Amoxicillin,Tetracycline antibiotics,Reduces amoxicillin effectiveness,Reduced antibiotic effect
+Amoxicillin,Chloramphenicol,Reduces amoxicillin effectiveness,Reduced antibiotic effect
+Amoxicillin,Erythromycin,Reduces amoxicillin effectiveness,Reduced antibiotic effect
+Amoxicillin,Oral contraceptives,Disrupts gut bacteria balance,Reduced contraceptive effectiveness
+Amoxicillin,Live bacterial vaccines (typhoid),Interferes with vaccine mechanism,Reduced vaccine effectiveness
+Amoxicillin,Antacids (high doses),Reduces amoxicillin absorption,Reduced antibiotic effectiveness
+Amoxicillin,Mycophenolate (immunosuppressant),Reduces mycophenolate absorption,Reduced immunosuppressant effect
+Amoxicillin,Lithium,Raises lithium levels,Lithium toxicity risk
+Amoxicillin,"NSAIDs (ibuprofen, naproxen)",Increases amoxicillin levels slightly,Mild toxicity risk
+Amoxicillin,Digoxin,Raises digoxin levels,Digoxin toxicity risk
+Amoxicillin,Sulfonamides,Reduces amoxicillin effectiveness,Reduced antibiotic effect
+Cefuroxime,Coumadin,Increases anticoagulant effect,Elevated bleeding risk
+Cefuroxime,Probenecid,Reduces cefuroxime clearance,Increased cefuroxime levels
+Cefuroxime,"Antacids (aluminum, magnesium)",Reduces cefuroxime absorption,Reduced antibiotic effectiveness
+Cefuroxime,"H2 blockers (ranitidine, famotidine)",Reduces cefuroxime absorption,Reduced antibiotic effectiveness
+Cefuroxime,Proton pump inhibitors (omeprazole),Reduces cefuroxime absorption,Reduced antibiotic effectiveness
+Cefuroxime,Aminoglycosides (gentamicin),Increases kidney stress,Kidney damage risk
+Cefuroxime,Loop diuretics (furosemide),Increases kidney stress,Kidney damage risk
+Cefuroxime,Methotrexate,Reduces methotrexate clearance,Methotrexate toxicity risk
+Cefuroxime,Oral contraceptives,Disrupts gut bacteria balance,Reduced contraceptive effectiveness
+Cefuroxime,Live bacterial vaccines (typhoid),Interferes with vaccine mechanism,Reduced vaccine effectiveness
+Cefuroxime,Cyclosporine,Increases kidney stress,Kidney damage risk
+Cefuroxime,Cholestyramine,Reduces cefuroxime absorption,Reduced antibiotic effectiveness
+Cefuroxime,Mycophenolate (immunosuppressant),Reduces mycophenolate absorption,Reduced immunosuppressant effect
+Cefuroxime,"NSAIDs (ibuprofen, naproxen)",Increases cefuroxime levels slightly,Mild toxicity risk
+Cefuroxime,Lithium,Raises lithium levels,Lithium toxicity risk
